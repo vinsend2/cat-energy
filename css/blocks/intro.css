@@ -1,0 +1,5 @@
+.intro {
+  background-color: #68b738;
+  background-image: linear-gradient(to top, #fff 175px, transparent 175px), url("../img/index-background-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }

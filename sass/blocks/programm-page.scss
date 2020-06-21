@@ -1,0 +1,30 @@
+.programm-page__h1 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 45px;    
+    text-align: left;
+}
+.programm-page__discription {
+    text-align: left;
+    text-transform: uppercase;    
+}
+.programm-page__form-block {
+    margin-top: 25px;
+}
+@media (min-width:$desktop-width), (min-width: $tablet-width)  {
+    .programm-page__h1 {
+        font-size: 60px;
+    }
+    .programm-page__discription {
+        font-size: 20px;
+        width: 35%;
+        line-height: 30px;
+    }
+}
+@media (min-width: $tablet-width) {
+    .programm-page__discription {
+        width: 50%;
+    }
+}

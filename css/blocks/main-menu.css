@@ -1,0 +1,12 @@
+.main-menu__tuggle {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border: none;
+  background-image: url("../img/m-close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: -20px; }
+
+.main-menu {
+  text-transform: uppercase; }

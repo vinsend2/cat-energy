@@ -1,0 +1,105 @@
+$mobile-width: 320px;
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1300px;
+$mobile-padding: 0 20px;
+$tablet-padding: 0 30px;
+$desktop-padding: 0 40px;
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+$green: #68b738;
+$green-hvr: #5eaa2f;
+$grey: #f2f2f2;
+$grey-hvr: #ebebeb;
+$grey-background: #eaeaea;
+$grey-border: #cdcdcd;
+$dark-grey: #d9d9d9;
+$black: #111111;
+$light-black: #444444;
+$white: #ffffff;
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: $mobile-width;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: $black;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonts/oswaldregular.woff") format("woff"),
+      url("../fonts/oswaldregular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonts/oswaldmedium.woff") format("woff"),
+      url("../fonts/oswaldmedium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .visual-hidden:not(:focus):not(:active),
+  input[type="checkbox"].visual-hidden,
+  input[type="radio"].visual-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  input {
+    border: 1px solid $grey-border;
+  }
+  input[type="checkbox"], input[type="radio"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;    
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    overflow: hidden;  
+}
+  .wrapper {    
+    padding: $mobile-padding;   
+    margin: auto;    
+    overflow: hidden;
+}
+@media (min-width: $tablet-width) {
+    .wrapper {
+    width: 708px;
+    padding: $tablet-padding;    
+  }  
+}
+@media (min-width: $desktop-width) {
+    .wrapper {
+    padding: $desktop-padding;  
+    width: 1220px;
+  }  
+}

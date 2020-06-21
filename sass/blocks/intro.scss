@@ -1,0 +1,72 @@
+.intro {
+    background-color: #63a73a;
+    background-image: linear-gradient(to top,#fff 175px,transparent 175px), url("../img/index-background-mobile.jpg");
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-size: 100%;   
+}
+.intro__h1 {
+    color: $white;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    padding-top: 40px;
+    margin: 0;
+}
+.intro__h1-b {
+    display: block;
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+@media (min-width:$tablet-width) {
+    .intro {
+        background-color: white;
+        background-image: none;
+    }
+    .intro__block {
+        position: relative;
+    }
+    .intro__h1 {
+        font-size: 60px; 
+        color: black;            
+        line-height: 60px;   
+    }
+    .intro__h1-b {
+        margin-top: 40px;
+        font-size: 20px; 
+        color: black;      
+    }
+    .intro__title-block {
+        text-align: left;        
+        margin-left: 90px;
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .intro__btn {
+        margin-bottom: 530px;
+        position: relative;        
+        width: 245px;
+        margin-left: 90px;
+    }
+    .intro__img {
+        position: absolute;
+        right: 45px;
+        top: 245px;
+    }
+}
+@media (min-width:$desktop-width) {
+    .intro__block {
+        overflow: visible;
+    }
+    .intro__img {
+        right: 257px;
+        top: -10px;
+    }
+    .intro__btn {
+        margin-bottom: 250px;
+    }
+}

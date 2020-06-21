@@ -1,0 +1,21 @@
+.catalog-main__h1 {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    font-weight: 400;
+    text-align: left;    
+    padding: 40px 20px 45px 0px;
+    border-top: 1px solid $grey-border;
+    border-bottom: 1px solid $grey-border;
+    margin: 0;
+}
+@media (min-width:$desktop-width), (min-width:$tablet-width) {
+    .catalog-main__h1 {
+        font-size: 60px;
+        padding: 45px 0 45px 0;
+        border: none;
+    }
+    .catalog-main {
+        margin-bottom: 65px;
+    }
+}

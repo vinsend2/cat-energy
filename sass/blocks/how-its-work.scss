@@ -1,0 +1,164 @@
+.how-its-work {
+    margin-bottom: 40px;
+}
+.how-its-work__h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.work-list {
+    position: relative;
+    font-family: Arial, sans-serif;
+    list-style: none;    
+    text-align: left;
+    padding: 0;
+}
+.work-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    & p {
+        margin: 0 0 0 25px;
+    }
+}
+
+.work-list__item1::before,
+ .work-list__item2::before,
+  .work-list__item3::before,
+   .work-list__item4::before  {
+    content: "";
+    display: block;    
+    background: #68b738;    
+    min-width: 60px;
+    min-height: 60px;
+}
+.work-list__item1::before {
+    background-image: url(../img/advantage-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.work-list__item2::before {
+    background-image: url(../img/andvantage-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.work-list__item3::before {
+    background-image: url(../img/advantage-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.work-list__item4::before {
+    background-image: url(../img/advantage-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (min-width:$tablet-width) {
+    .how-its-work {
+        margin-bottom: 180px;
+    }
+    .how-its-work__h2 {
+        font-size: 60px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .work-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .work-list li {
+        display: block;
+        width: 18%;
+    }
+    .work-list__item1::before,
+      .work-list__item2::before,
+       .work-list__item3::before,
+        .work-list__item4::before  {
+        width: 60px;
+    }
+    .work-list li p {
+        margin: 45px 0 0 0;
+        padding-bottom: 80px;
+    }
+    .work-list__item1 {
+        background-image: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item2 {
+        background-image: url(../img/2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item3 {
+        background-image: url(../img/3.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item4 {
+        background-image: url(../img/4.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .work-list li {
+        width: 80%;
+        & p {
+            padding-bottom: 108px;
+        }
+    }
+}
+@media (min-width:$desktop-width) {
+    .how-its-work {
+        margin-bottom: 180px;
+    }
+    .how-its-work__h2 {
+        font-size: 60px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .work-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .work-list li {
+        display: block;
+        width: 18%;
+    }
+    .work-list__item1::before,
+      .work-list__item2::before,
+       .work-list__item3::before,
+        .work-list__item4::before  {
+        width: 60px;
+    }
+    .work-list li p {
+        margin: 45px 0 0 0;
+        padding-bottom: 80px;
+    }
+    .work-list__item1 {
+        background-image: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item2 {
+        background-image: url(../img/2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item3 {
+        background-image: url(../img/3.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .work-list__item4 {
+        background-image: url(../img/4.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}

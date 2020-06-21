@@ -1,0 +1,11 @@
+.example-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.example__block-min {
+  width: 50%;
+  display: block; }
+
+.example__p {
+  display: block;
+  text-align: center; }

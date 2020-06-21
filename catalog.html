@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Функциональное питание для котов</title>
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=45e98965-feb0-4f1b-b733-65c2beefaaac"
+            type="text/javascript"></script>
+        <script src="./js/customicon.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="page-header">
+            <div class="page-header__block wrapper">               
+                <div class="page-header__logo-block">
+                    <a class="page-header__link" href="./index.html"> 
+                        <picture>
+                        <source media="(min-width: 1300px)" srcset="img/main-logo.svg">
+                        <source media="(min-width: 768px)" srcset="img/main-logo.svg">
+                        <img class="page-header__logo" width="33px" height="38px" src="img/logo-mobile.svg" alt="Логотип Cat Energy">
+                    </picture>                          
+                                     
+                    </a>
+                    <a class="page-header__title-link"> <img class="page-header__title-logo"
+                            src="img/logo-mobile-header.svg" width="101" height="18">
+                    </a>
+                    <button class="main-menu__tuggle" type="button"><span class="visual-hidden">Закрыть меню</span></button>
+                </div>
+                <nav class="main-menu">
+                    <ul class="main-menu__list site-list">
+                        <li class="site-list__item">
+                            <a class="site-list__link" href="./index.html">Главная</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link site-list__link--active" href="./catalog.html">Каталог продукции</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a class="site-list__link" href="./form.html">Подбор программы</a>
+                        </li>
+                    </ul>
+                </nav class="main-manu">
+            </div>
+        </header>
+    <main class="page-main">
+        <section class="catalog-main">          
+         
+            <div class="catalog-main__wrapper wrapper">
+                <h1 class="catalog-main__h1">Каталог продукции</h1>
+                <ul class="catalog-main__list-items product-items">
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                         <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-1-desktop.png">
+                                    <source media="(min-width: 768px)" srcset="img/catalog-1-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-1-mobile.jpg" >               
+                                 </picture>    
+                         </div>
+                       
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-2-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-2-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-2-mobile.jpg">               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-3-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-3-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-3-mobile.jpg" >               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-4-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-4-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-4-mobile.jpg">               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-5-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-5-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-5-mobile.jpg">               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-6-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-6-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-6-mobile.jpg">               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+                    <li class="product-items__item">
+                        <div class="product-items__block">
+                            <div class="product-items__img-block">
+                                <picture>
+                                    <source media="(min-width: 1300px)" srcset="img/catalog-7-desktop.png">
+                                        <source media="(min-width: 768px)" srcset="img/catalog-7-tablet.png">
+                                    
+                                        <img class="product-items__img" src="img/catalog-7-mobile.jpg" >               
+                                 </picture>    
+                         </div>
+                            <h3 class="product-items__item-name">Cat enerhy slim 500г</h3>
+                            <div class="product-items__stat-table">
+                                <table border="0" width="100%" cellpadding="5">
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>500г</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вкус</td>
+                                        <td>Курица</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цена</td>
+                                        <td>700р</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="product-items__order-btn btn">Заказать</button>
+                        </div>
+                    </li>
+           
+
+
+
+            <li class="product-items__item">
+                <div class="product-items__last-block">
+                    <picture>
+                        <source media="(min-width: 1300px)" srcset="img/plus-desktop.svg">
+                        
+                            <img class="product-items__plus" src="img/plus-mobile.svg">              
+                     </picture>    
+                  
+                    <h3 class="product-items__item-name--more">Показать еще 100500 товаров</h3>
+                    <p>На самом деле вкусов намного больше!</p>
+                    <button class="product-items__order-btn--more btn">Показать все</button>
+                </div>
+            </li>
+
+            </ul>
+            </div>
+
+        </section>
+        <section class="catalog-addit">
+            <div class="line"></div>             
+            <div class="catalog-addit__wrapper wrapper">
+                <h2 class="catalog-addit__h2">Дополнительные товары</h2>
+           <div class="catalog-addit__content-block">
+                    <ul class="catalog-addit__items-list">
+                        <li class="catalog-addit__item">
+                            <div class="catalog-addit__item-block">
+                                <h3 class="catalog-addit__item-name">Сахарозаменитель</h3>
+                                <div class="catalog-addit__stat-table">
+                                    <table border="0" width="100%" cellpadding="5">
+                                        <tr>
+                                            <td>1 упаковка(100г)</td>
+                                            <td>100р</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="catalog-addit__order-btn btn">Заказать</button>
+                            </div>
+                        </li>
+                        <li class="catalog-addit__item">
+                            <div class="catalog-addit__item-block">
+                                <h3 class="catalog-addit__item-name">Сахарозаменитель</h3>
+                                <div class="catalog-addit__stat-table">
+                                    <table border="0" width="100%" cellpadding="5">
+                                        <tr>
+                                            <td>1 упаковка(100г)</td>
+                                            <td>100р</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="catalog-addit__order-btn btn">Заказать</button>
+                            </div>
+                        </li>
+                        <li class="catalog-addit__item">
+                            <div class="catalog-addit__item-block">
+                                <h3 class="catalog-addit__item-name">Сахарозаменитель</h3>
+                                <div class="catalog-addit__stat-table">
+                                    <table border="0" width="100%" cellpadding="5">
+                                        <tr>
+                                            <td>1 упаковка(100г)</td>
+                                            <td>100р</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="catalog-addit__order-btn btn">Заказать</button>
+                            </div>
+                        </li>
+                        <li class="catalog-addit__item">
+                            <div class="catalog-addit__item-block">
+                                <h3 class="catalog-addit__item-name">Сахарозаменитель</h3>
+                                <div class="catalog-addit__stat-table">
+                                    <table border="0" width="100%" cellpadding="5">
+                                        <tr>
+                                            <td>1 упаковка(100г)</td>
+                                            <td>100р</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <button class="catalog-addit__order-btn btn">Заказать</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="catalog-addit__gift">
+                       <svg class="catalog-addit__gift-img"  xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="60" viewBox="0 0 55 60">
+                            <image id="gift.svg" width="55" height="60"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA8CAYAAADCHCKFAAAD5klEQVRoge2bTWgdVRiGn9S2UpOiJlQqtTZSClEqKHTRoBRJQKu2MW03LktFu+kmmtptt5LUjVnownRV6EKIGxEVIVCEuhERaemi1IYG0iQVW2p/bNJXjn43ns45M3duzOKey7zwced8f3PeOfNzvplzkdSodEr6UNJZSbf1L2YkfSlpQFLbMnJicQOWZ9byuvw/SjomqSsSUyiFxojskzSnYpyRtC0SWyTbLK4Ibr/7C3IE8s9RLolDwOee60/Ad8Ac8CwwCHSZ7Q9gHzBZIvUrwATwmLWvWfs88ATQD+zw/N8BxoMsMcQYR2S7pLt2VK9L2hvxWSdpRNKi+d2S1Bfx86XP/GRxI5Yn67fH9utwR1JPxCeQQJEjE5b4nqTeHJ+aHPCuxRuSnov4YPobXocPRHx86bX9O3wRsQcSKCLS5Y3GJxF7TAa9mAuS2jM+7aavjdhgJEdMxixmocwNJlBE5A3vIq83ar4Me3FjGduYZxuOxOZJrxe3O8enIXIHvYSPR+x54m5W31jcfUk7zW+ntR2+bfDR0en15WDE/oCsitxjsrjrtR8NrPlwt+H3gFtAGzBiniPWdvp3za8s1nt+f9WLKUPunLfdF1iLcRn4yDxeBj61X0x/uTA6xC5P82tgzSI2nBlZJWnKToXzktZGfIqkQ9J85uE8b/qiuKyslvSLxU9Zv2J+S1Jm5O4DJ2y7BzgJrA288nETGM1YR01fFmvswf28+X9s/SpEbYZyyJ78m3KcHwKe8tqzwO3AKx/uYDzpWWcy13I9rLPZSg3TwEJOzLTNpMYdufe9kWklfODIXbWjcgX4vgXI9dtZNot3kQ/FLsoEZahGyL+hNPK8aWYs8Shzt0wWFblUUZFLFRW5VOGTa2sRTks83PTLTYI3WG1V5lVcs8O9KtziXjk6csNeldxKOForeQ5b2bPJK3vm7FXASmEj8LCVOjMrmPcRO/Owcmfaar/PshPjbm8iXfZ1W1mZtLyTK5x30Otzd6OVeLKoyKWKilyqqMiliopcqqjIpYqWJrc60PyHt4EXAu3y0W2R7vf4CubtCTSG7DoUt+NLgVc6eAb4rdbbopFztdy9QLt8dNinsMUGv83Vwxqr6UJU9VyiqMiliopcqqjIpYqKXJMj9wNOlty8t70x8G5O+CuT/P4H5G7aYhtsQXYKeMv6eCU7Z42dlqfs9zVgKLA2F1z/Xs30ewmxpfedwM/AZmv/AHwN/Pk/aR0BtgIXgbHA2hjagdeBlyxqCngR+L0eOYftwFfA04Gl+eCIvRlbXFr0pwm35Net6HMVuTvirhZrFria0J0Bp23t5fWgY8DfNakHUdAwYusAAAAASUVORK5CYII=" />
+                        </svg>
+                        <p>Закажите все и получите чехол для кота в подарок!</p>
+                    </div>
+           </div>
+            </div>
+            
+          
+        </section>
+
+    </main>
+    <footer class="footer-page">
+        <div class="footer-page__contacts-block--catalog">
+            <div class="footer-page__contacts-wrapper wrapper">
+                <div class="footer-page__contacts-block">
+                    <h2 class="footer-page__contacts">Приглашаем к сотрудничеству диллеров</h2>
+                    <div class="footer-page__adress">
+                        <p>ул. Большая Конюшенная, д. 19/8 </p>
+                        <span>Санкт-Петербург</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-page__map">
+                <div class="map" id="map" style="position: relative; overflow: hidden;"></div>
+
+            </div>
+        </div>
+        <section class="footer-bottom">
+            <div class="footer-bottom__wrapper wrapper">
+                <div class="footer-bottom__logo">
+                    <a class="footer-bottom__logo-link"><img class="footer-bottom__logo-image" src="img/footer-logo.svg"
+                            width="128" height="24"></a>
+                </div>
+                <div class="footer-bottom__social-block">
+                    <ul class="footer-bottom__social social-list">
+                        <li class="social-list__item">
+                            <a class="social-list__icon--vk" href="#"><span class="visual-hidden">Мы В
+                                    Контакте</span><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="16"
+                                    viewBox="0 0 30 16">
+                                    <image id="vk.svg" width="30" height="16"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAQCAYAAAABOs/SAAACj0lEQVQ4jaXVbciOZxgH8J8HzyKEJRGLyFs+rB7lLYUUiczCohSrPT6YfKGINttENq9tMkk+SItt3vJBIU+0tHlNogjlJaMVyVt52TrquLlcux+Uf133dd3HeZzH/zyP838cZ5P6+vqOGIkPvI5TOJuWlvgeE9AZNWl/jstYiw2l+d1Rh1Yl+xMcaobT6KQ6JuF3zMfs9NiBW/ndBkOxHjtxO+39cAbNq0blahDHcx2f4EUO1OI3LMUebMYAjMMJ/FAIMgNb0LNA/FVmZTwepC1i38+47WJwNbqid64ynr+wHH3wBW5kkDu5w2p4mLZY4BRsxT405HMkOXrg5yBeh5tYhhaFgJtwHt+hQ9oixW2rkFbQFD/iMRaXxnphIy4FV006LUA3zCs4PsOX+DAnVFBTCtgy348yziB8k5upoB325pl/GtmpBNmW6V2YaqzgMNZgYu4gjuReifjffE/Dt6FYrCyM16bwIs2f45zC6mPyrHSK3TUpTIxdHMyUt8exEvHJfH+Ni5haEGlgFYZjEba/PJO6urrK999Zy6HSu/gz7c+zhJ6kolfgaSHwzXwupBD/KYx1wS/YhTnF1UYDKf5vnoRRh8Nw3PshmtO1zMSY4rmXhfI0m0YIZXeu+H1wO8+1T26of2PEgSv4LEuo4R3J52Sp7cxdFhHCHYvWOIrBjREHDiR5t0z3yP95vEKnVP7D7OV/VFlsxBuRJbo/jrIxYimI0an0KJFfMaSkeFm30TjmZo1+lJnqW/KLS2dUtujN8fMmBGEECCVPz/MP1UaQykURHSkQAoquFD6h5PCJC6ai8rilgi/6wIC3EQeiP8/Ekkx/1OTHmbqogkjxT0kaiA41MK/RyZmxIq5i9n+sBJSfCx9/rAAAAABJRU5ErkJggg==" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__icon--inst" href="#"><span class="visual-hidden">Мы в
+                                    Инстаграмме</span><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23"
+                                    viewBox="0 0 23 23">
+                                    <image id="insta.svg" width="23" height="23"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAB8klEQVRIia2VPUscURSGH4dJAoIgBJUoqNhsYad2fmAaC7G0cJWsirBdoq3YJ62xF3TVWNpZWLiC/gWRbXYVTCEiCRaCWCgH38E73t1h/HibC/Pe+9zDuWfOqcvn80j1wA9gCsgAH0ivO6AEbAErwI2dDHW8C9gV9BhYBS5eAG8GhoBfwAwwCpRDRWzgdmAS2PaOpldWgRmvJ1QqMu8Axjn/x7iBcnz8BrAFda2IowuMNxUo6kPvSFytwASwoPWL444DDbokkvEyoaqi1uM1AstADqhzvt8DBWAe+Al8BHYc/9a4oYeLg4+AbmADWANOgU5VxDTQBwwAY95ppxSr6bfA34BNxy8D+8CeLl3WZZ4C78uj2gRdewZ2tSk/pzfxVAs+rBwXPCeugvZ99ZwEeJPWiufEVXm2PxX8Smun58QV+ZeekwAvqtxynhNXTvsOPCcBfq4ON6ufppom5NvD/q3iJ5ai9Zxe/c4jwDpwBnSoxg18on1VlQT/B/SrP88IFuleEX8H/nsnncit0bd4ztMFVu+LKrfPeuyiUldLn4wbaoIM1tgU6Vx/Y1oZrxTo4brV6N9DWfG2AuW0pH781guiSWS8FUuLDVObeTaabIIsqR9b20wry7GlwiI2sPFuomqxTtfjTP+5V05/e/jH6Q88AEQqaPeuZmqoAAAAAElFTkSuQmCC" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__icon--fb" href="#"><span class="visual-hidden">Мы В
+                                    Фейсбуке</span><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="28"
+                                    viewBox="0 0 14 28">
+                                    <image id="fb.svg" width="14" height="28"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAABIElEQVQ4je3UTytEURjH8c/IgibJlK0SCxZqVjYW0xSlJFI2tmpWXgPzErwDOyQrC2WhbFnZ2eIV+BOJjY7O5Dhz3WLLr56ee859vuf5nXrurbRaLQWqYQNLmER/XtLbzWjiMMJXOMBd8r6Beg6O4wgvmMdJ17FsF4GbqGIW513IN1b7sILTAmgGw/F5LAcnYrfcXrjTWVnHkZhvs5rVmBfwXAT2xPyYgaO4x3HesZ1YDRrIwGrM7XQzgFtZYS1bv2Ewr+vY24mWQuxn4DKGkthL7/iAa8V6ynZf044/VqdjI45S0C4ukoPWMZWsp1Or9RhBlxm4GL+SLwpWKzGaJXZvkrqP+PUd/8ES/QWw6Ie8lsxtUDrgpeBcjFRhVj+Fd380J83gMREDAAAAAElFTkSuQmCC" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom__who-dev">
+                    <a href="#">
+                        ВалераПродакшн
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <script src="./js/main-menu.js" type="text/javascript"></script>
+</body>
+
+</html>

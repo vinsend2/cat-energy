@@ -1,0 +1,116 @@
+.catalog-addit__items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.catalog-addit {
+    margin-top: 30px;
+    border-top: 3px solid $green;
+    text-align: left;
+}
+.catalog-addit__h2 {
+    background-color: $white;
+    text-align: left;
+    padding: 0 40px 0 20px;
+    transform: translateY(-16px);
+    display: inline-block;
+    margin-left: -20px;
+}
+.catalog-addit__item {
+    text-align: left;
+    border-bottom: 1px solid $grey-border;
+    padding-bottom: 18px;
+    &:first-child {
+        border-top: 1px solid $grey-border;
+    }
+}
+.catalog-addit__wrapper {
+    margin-top: -15px;
+}
+.catalog-addit__item-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 15px 0 20px 0;
+}
+.catalog-addit__stat-table {
+    margin-bottom: 18px;
+    & table td {
+        padding: 0;
+        &:nth-child(2) {
+            text-align: right;
+        }
+    }
+}
+.catalog-addit__gift {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 280px;
+    height: 290px;
+    background: url(../img/gift-photo-mobile.jpg.png) no-repeat center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    & p {
+        padding: 0 50px;
+        text-align: center;
+    }    
+}
+.catalog-addit__gift-img {
+    margin-top: 35px;  
+}
+@media (min-width:$desktop-width), (min-width:$tablet-width) {
+    .catalog-addit__h2 {
+     font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;  
+    transform: translateY(-30px);    
+    }
+    .catalog-addit__wrapper {       
+        overflow: visible;
+    }
+    .catalog-addit__item-block {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+    .catalog-addit__content-block {
+        display: flex;
+    }
+    .catalog-addit__gift {
+        margin: 0;
+        margin-left: 80px;
+    }
+    .catalog-addit {
+        margin-bottom: 90px;
+    }
+    .catalog-addit__stat-table {
+        margin: 0;
+    }
+    .catalog-addit__item {
+        padding: 15px 0px;
+    }
+    .catalog-addit__order-btn {
+        margin-left: 40px;
+        width: calc(100% - 40px);
+        padding: 13px 0;
+    }
+    .catalog-addit__items-list {
+        width: 100%;
+    }
+    .catalog-addit__item-name {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+}
+@media (min-width:$tablet-width) {
+   .catalog-addit__item-name {
+    font-size: 14px;
+   }
+}
